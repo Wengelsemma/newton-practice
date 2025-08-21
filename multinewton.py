@@ -1,5 +1,6 @@
 #multivariate newton
 import numpy as np
+
 from scipy.linalg import solve
 def multinewton(x0, f, maxiter=100, e=1e-5):
     x=np.array(x0, datatype=float)
